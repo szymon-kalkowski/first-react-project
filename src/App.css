@@ -11,6 +11,7 @@ html, body {
 
 body {
   min-height: 100vh;
+  background-color: rgb(45, 45, 45);
 }
 
 nav {
@@ -49,7 +50,6 @@ main {
   align-items: center;
   flex-wrap: wrap;
   color: white;
-  background-color: rgb(45, 45, 45);
 }
 
 main.light {
@@ -155,5 +155,6 @@ nav.light {
 }
 
 .logo{
-  width: 400px;
+  width: 300px;
+  padding: 20px;
 }
