@@ -1,10 +1,8 @@
-import reactLogo from "../images/react-logo.png"
-
 export default function Navbar(props) {
     return (
             <nav className={props.lightMode ? "light" : ""}>
                 <div>
-                    <img className="nav-logo" src={reactLogo} alt="React Logo"/>
+                    <img className="nav-logo" src="./images/react-logo.png" alt="React Logo"/>
                     <h3>React Facts</h3>
                 </div>
                 <div className="toggler">
